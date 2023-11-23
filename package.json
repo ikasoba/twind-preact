@@ -1,7 +1,8 @@
 {
   "type": "module",
   "name": "@ikasoba000/twind-preact",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "main": ".dist/index.js",
   "scripts": {
     "build": "tsc --build",
     "prepare": "npm run build"
