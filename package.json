@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "@ikasoba000/twind-preact",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc --build",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "@twind/core": "^1",
+    "preact": "^10"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "license": "MIT"
+}
